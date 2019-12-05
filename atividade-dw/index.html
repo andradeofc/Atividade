@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DW - Atividade</title>
+    
+</head>
+<body>
+    <fieldset>
+        <form name="frmTeste" method="post" action="#" onsubmit="return validaForm(this);">
+        <legend>Formulario</legend>
+        <p><label for="nome">Username:</label>
+        <input type="text" name="nome" id="nome"/>
+        <span id="idNome"></span></p>
+
+        <p><label for="sexo">Sexo:</label>
+        <label><input type="radio" name="sexo" value="M" id="masc" /> Masculino</label>
+        <label><input type="radio" name="sexo" value="F" id="masc" /> Feminino</label>
+                    
+              
+        <p><label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha"/>
+        <span id="idSenha"></span></p>
+
+        <p><label for="idade">Idade:</label>
+        <input id="idade" type="number" min=1 max=100>
+        <span id="idIdade"></span></p>
+
+        <p><label for="email">Email:</label>
+        <input type="text" name="email" id="email" />
+        <span id="idEmail"></span></p>
+
+        </p><label><input type="submit" name="sbt" value="Enviar" /></label></p>
+        </form>
+    </fieldset>
+        <br>
+        <div id="result">
+
+        </div>
+        <script src="JS/script.js"></script>
+</body>
+</html>
